@@ -1,0 +1,123 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  form.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 42px 11px rgba(0,0,0,0.59);
+  }
+
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 42px 11px rgba(0,0,0,0.59);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  p {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2px;
+    resize: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  button[type="submit"] {
+    background-color: #2a5dbd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2666dd;
+  }
+  
+  button[class= "delete-task" ]:hover {
+    background-color: #b62b36;
+  }
+  button[class= "delete-task"] {
+    background-color: #7e262d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  button[class="edit-task"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[class="edit-task"]:hover {
+    background-color: #3e8e41;
+}
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }

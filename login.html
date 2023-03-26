@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.9.0/localforage.min.js"></script>
+</head>
+<body>
+	<h1>Login</h1>
+	<form id="login-form">
+		<label for="username">Nome de usuário:</label>
+		<input type="text" id="username" name="username" required>
+		
+		<label for="password">Senha:</label>
+		<input type="password" id="password" name="password" required>
+		
+		<button type='submit'>Entrar</button>
+	  </form>
+	  <div class="form-link">
+		<p>Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+	</div>
+	  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	  <script src="login.js"></script>
+</body>
+</html>
